@@ -1,3 +1,4 @@
+print("\n")
 
 import numpy as np
 X = np.array([2, 0, -7])    # 3 input features, vector
@@ -34,3 +35,5 @@ def one_neuron(Xs):    # multiple input features, multiple examples
     return np.dot(Xs, w) + b
 
 print(one_neuron(Xs))
+
+print("\n")
