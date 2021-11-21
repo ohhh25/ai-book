@@ -6,6 +6,7 @@ print(np.round_(np.random.randn(4), decimals=3))
 print(np.round_(np.random.randn(4, 3), decimals=3))
 
 # =========================================================
+
 scaler = -3.963
 
 vector = [0.742, 15.33, -2.268, 1.334]
