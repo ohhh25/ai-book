@@ -25,6 +25,7 @@ print(one_neuron(Xs))
 
 # =========================================================
 # Without Summation Function
+
 Xs = np.array([[2, 0, -7],
               [-2, 9, 0],
               [5, 1, -1],
@@ -32,7 +33,7 @@ Xs = np.array([[2, 0, -7],
 def one_neuron(Xs):    # multiple input features, multiple examples
     w = np.array([5, -2, -10])
     b = -10
-    return np.dot(Xs, w) + b
+    return np.dot(Xs, w.T) + b
 
 print(one_neuron(Xs))
 
