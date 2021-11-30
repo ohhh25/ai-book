@@ -1,10 +1,8 @@
 import numpy as np
-np.random.seed(0)
+np.random.seed(3)
 
-print(np.random.randint(low=-10, high=10))    # X
-print(np.random.randint(low=-10, high=10))    # w
-print(np.random.randint(low=-10, high=10))    # b
+print(np.random.randint(low=-10, high=10, size=2))   # remaining X
+print(np.random.randint(low=-10, high=10, size=2))    # remaining w
 
 # =========================================================
-np.random.seed(2)
-print(np.random.randint(low=-10, high=10, size=3))    # remaining Xs
+print(np.random.randint(low=-10, high=10, size=[3, 2]))    # remaining Xs
