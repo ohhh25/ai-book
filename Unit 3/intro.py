@@ -16,12 +16,12 @@ X = np.array([[0], [1], [2], [3], [4], [5], [6], [7], [8]])    # one input featu
 # percentage
 y = np.array([[20], [30], [40], [50], [60], [70], [80], [90], [100]])    # one output feature for each example
 
-my_layer1 = Dense_Layer(1, 1)    # 1 input feature, 1 neuron (output feature)
-my_layer1.forward(X)
-print(my_layer1.outputs)
+dumb_model1 = Dense_Layer(1, 1)    # 1 input feature, 1 neuron (output feature)
+dumb_model1.forward(X)
+print(dumb_model1.outputs)
 
-my_layer2 = Dense_Layer(1, 1)    # 1 input feature, 1 neuron (output feature)
-my_layer2.forward(X)
-print(my_layer2.outputs)
+dumb_model2 = Dense_Layer(1, 1)    # 1 input feature, 1 neuron (output feature)
+dumb_model2.forward(X)
+print(dumb_model2.outputs)
 
 print("\n")
