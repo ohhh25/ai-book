@@ -55,10 +55,10 @@ print(slope)
 # increase/decrease
 if slope < 0:
     print("slope is negative, we need to increase the weight to decrease the cost")
-    model.weights += 1
+    model.weights += EPS
 elif slope > 0:
     print("slope is positive, we need to decrease the weight to decrease the cost")
-    model.weights -= 1
+    model.weights -= EPS
 else:
     print("oh no! :(")
 
@@ -66,6 +66,9 @@ else:
 model.forward(X)
 new_cost = mse.forward(model.outputs, y)    # y2
 print(new_cost)
-print(new_cost < og_cost)
+if new_cost < og_cost:
+    print("Change:", new_cost-og_cost)
+else:
+    print("oh no! :(")
 
 print("\n")
