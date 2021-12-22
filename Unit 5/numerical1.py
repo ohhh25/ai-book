@@ -32,7 +32,7 @@ EPS = 1e-4    # epsilon, (1 * (10 ** -4))
 
 print("Weights:", model.weights)
 print("Biases:", model.biases)
-print("Cost:", mse.forward(model.outputs, y))
+print("Cost:", og_cost)
 print("EPSILON:", EPS)
 
 # (x2, y2)
