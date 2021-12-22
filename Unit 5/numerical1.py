@@ -28,12 +28,12 @@ mse = MSE_Cost()    # define cost function
 model = Dense_Layer(1, 1)    # 1 input feature, 1 neuron (output feature)
 model.forward(X)
 og_cost = mse.forward(model.outputs, y)    # original cost
-EPS = 1e-4    # epsilion, (1 * (10 ** -4))
+EPS = 1e-4    # epsilon, (1 * (10 ** -4))
 
 print("Weights:", model.weights)
 print("Biases:", model.biases)
 print("Cost:", mse.forward(model.outputs, y))
-print("EPSILION:", EPS)
+print("EPSILON:", EPS)
 
 # (x2, y2)
 model.weights += EPS    # x2
