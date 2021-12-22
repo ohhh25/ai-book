@@ -64,7 +64,7 @@ else:
 
 # check if cost decreased
 model.forward(X)
-new_cost = mse.forward(model.outputs, y)    # y2
+new_cost = mse.forward(model.outputs, y)
 print(new_cost)
 if new_cost < og_cost:
     print("Change:", new_cost-og_cost)
