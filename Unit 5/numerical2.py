@@ -81,10 +81,10 @@ print("Slope of b:", slope_b)
 
 # increase/decrease -- b
 if slope_b < 0:
-    print("slope of b is negative, we need to increase the weight to decrease the cost")
+    print("slope of b is negative, we need to increase the bias to decrease the cost")
     model.biases += EPS
 elif slope_b > 0:
-    print("slope of b is positive, we need to decrease the weight to decrease the cost")
+    print("slope of b is positive, we need to decrease the bias to decrease the cost")
     model.biases -= EPS
 else:
     print("oh no! :(")
