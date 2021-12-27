@@ -1,0 +1,76 @@
+\documentclass{article}
+\usepackage{xcolor}
+\begin{document}
+
+When (ŷ - y) \textless{} 0:
+
+\begin{displaymath}
+\frac{\textcolor{blue}{J(\hat{y}+\epsilon, y)}
+\textcolor{red}{-J(\hat{y}-\epsilon, y)}}
+{(\textcolor{orange}{\hat{y}}+\textcolor{violet}{\epsilon})-(
+\textcolor{orange}{\hat{y}}-\textcolor{violet}{\epsilon})}
+% substitution and negative distribution
+=\frac{\textcolor{blue}{-[(\hat{y}+\epsilon)-y]}
+\textcolor{red}{-[-[(\hat{y}-\epsilon)-y]]}}
+{(\textcolor{orange}{\hat{y}}+\textcolor{violet}{\epsilon})+(
+\textcolor{orange}{-\hat{y}}+\textcolor{violet}{\epsilon})}
+\end{displaymath}
+
+% negative distribution and group like terms
+\begin{displaymath}
+=\frac{\textcolor{blue}{[-(\hat{y}+\epsilon)+y]}+
+\textcolor{red}{[(\hat{y}-\epsilon)-y]}}
+{(\textcolor{orange}{\hat{y}-\hat{y}})+(\textcolor{violet}{\epsilon+\epsilon})}
+% negative distribution and combine like terms
+=\frac{(\textcolor{blue}{-\hat{y}}\textcolor{violet}{-\epsilon}+\textcolor{red}{y})+
+(\textcolor{blue}{\hat{y}}\textcolor{violet}{-\epsilon}\textcolor{red}{-y})}
+{2\textcolor{violet}{\epsilon}}
+\end{displaymath}
+
+% group like terms
+\begin{displaymath}
+=\frac{(\textcolor{blue}{-\hat{y}+\hat{y}})+(\textcolor{violet}{-\epsilon-\epsilon})+
+(\textcolor{red}{y-y})}{\textcolor{orange}{2}\textcolor{violet}{\epsilon}}
+% combine like terms
+=\frac{\textcolor{orange}{-2}\textcolor{violet}{\epsilon}}
+{\textcolor{orange}{2}\textcolor{violet}{\epsilon}}
+= -1
+\end{displaymath}
+
+
+When (ŷ - y) \textgreater{} 0:
+
+\begin{displaymath}
+\frac{\textcolor{blue}{J(\hat{y}+\epsilon, y)}
+\textcolor{red}{-J(\hat{y}-\epsilon, y)}}
+{(\textcolor{orange}{\hat{y}}+\textcolor{violet}{\epsilon})-(
+\textcolor{orange}{\hat{y}}-\textcolor{violet}{\epsilon})}
+% substitution and negative distribution
+=\frac{\textcolor{blue}{[(\hat{y}+\epsilon)-y]}
+\textcolor{red}{-[(\hat{y}-\epsilon)-y]}}
+{(\textcolor{orange}{\hat{y}}+\textcolor{violet}{\epsilon})+(
+\textcolor{orange}{-\hat{y}}+\textcolor{violet}{\epsilon})}
+\end{displaymath}
+
+% negative distribution and group like terms
+\begin{displaymath}
+=\frac{\textcolor{blue}{[(\hat{y}+\epsilon)-y]}+
+\textcolor{red}{[-(\hat{y}-\epsilon)+y]}}
+{(\textcolor{orange}{\hat{y}-\hat{y}})+(\textcolor{violet}{\epsilon+\epsilon})}
+% negative distribution and combine like terms
+=\frac{(\textcolor{blue}{\hat{y}}+\textcolor{violet}{\epsilon}\textcolor{red}{-y})+
+(\textcolor{blue}{-\hat{y}}+\textcolor{violet}{\epsilon}+\textcolor{red}{y})}
+{2\textcolor{violet}{\epsilon}}
+\end{displaymath}
+
+% group like terms
+\begin{displaymath}
+=\frac{(\textcolor{blue}{\hat{y}-\hat{y}})+(\textcolor{violet}{\epsilon+\epsilon})+
+(\textcolor{red}{-y+y})}{\textcolor{orange}{2}\textcolor{violet}{\epsilon}}
+% combine like terms
+=\frac{\textcolor{orange}{2}\textcolor{violet}{\epsilon}}
+{\textcolor{orange}{2}\textcolor{violet}{\epsilon}}
+= 1
+\end{displaymath}
+
+\end{document}  
