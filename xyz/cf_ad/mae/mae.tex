@@ -12,7 +12,7 @@ MAE = \left\{
 \end{array} \right.
 \end{equation*}
 
-\bigskip\bigskip\bigskip\bigskip
+\bigskip\bigskip
 When ŷ \textless{} y:
 
 \begin{displaymath}
@@ -48,7 +48,7 @@ When ŷ \textless{} y:
 = -1
 \end{displaymath}
 
-\bigskip\bigskip\bigskip\bigskip
+\bigskip\bigskip
 When ŷ \textgreater{} y:
 
 \begin{displaymath}
@@ -84,7 +84,7 @@ When ŷ \textgreater{} y:
 = 1
 \end{displaymath}
 
-\bigskip\bigskip\bigskip\bigskip
+\bigskip\bigskip
 When ŷ = y:
 
 \begin{displaymath}
@@ -109,5 +109,15 @@ When ŷ = y:
 % ...simplify
 =\frac{0}{0}=\text{undefined!}
 \end{displaymath}
+
+\bigskip\bigskip
+\begin{equation*}
+\frac{\partial{}MAE}{\partial{}\hat{y}} = \left\{
+\begin{array}{ccc}
+-1, & \text{if }\hat{y} < y \\
+1, & \text{if }\hat{y} > y \
+0, & \text{if }\hat{y} = y
+\end{array} \right.
+\end{equation*}
 
 \end{document}  
