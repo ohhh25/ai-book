@@ -3,89 +3,89 @@
 \begin{document}
 
 \begin{displaymath}
-\frac{\textcolor{blue}{J(\hat{y}+eps, y)}
-\textcolor{red}{-J(\hat{y}-eps, y)}}
-{(\textcolor{orange}{\hat{y}}+\textcolor{violet}{eps})-(
-\textcolor{orange}{\hat{y}}-\textcolor{violet}{eps})}
+\frac{\textcolor{blue}{J(\hat{y}+\epsilon{}, y)}
+\textcolor{red}{-J(\hat{y}-\epsilon{}, y)}}
+{(\textcolor{orange}{\hat{y}}+\textcolor{violet}{\epsilon{}})-(
+\textcolor{orange}{\hat{y}}-\textcolor{violet}{\epsilon{}})}
 % substitution and negative distribution
-=\frac{\textcolor{blue}{[(\hat{y}+eps)-y]^2}
-\textcolor{red}{-[(\hat{y}-eps)-y]^2}}
-{(\textcolor{orange}{\hat{y}}+\textcolor{violet}{eps})+(
-\textcolor{orange}{-\hat{y}}+\textcolor{violet}{eps})}
+=\frac{\textcolor{blue}{[(\hat{y}+\epsilon{})-y]^2}
+\textcolor{red}{-[(\hat{y}-\epsilon{})-y]^2}}
+{(\textcolor{orange}{\hat{y}}+\textcolor{violet}{\epsilon{}})+(
+\textcolor{orange}{-\hat{y}}+\textcolor{violet}{\epsilon{}})}
 \end{displaymath}
 
 % expansion and group like terms
 \begin{displaymath}
-=\frac{[\textcolor{blue}{(\hat{y}+eps)^2}-2y(\hat{y}+eps)+
-\textcolor{red}{y^2}]-[\textcolor{blue}{(\hat{y}-eps)^2}
--2y(\hat{y}-eps)+\textcolor{red}{y^2}]}
-{(\textcolor{orange}{\hat{y}-\hat{y}})+(\textcolor{violet}{eps+eps})}
+=\frac{[\textcolor{blue}{(\hat{y}+\epsilon{})^2}-2y(\hat{y}+\epsilon{})+
+\textcolor{red}{y^2}]-[\textcolor{blue}{(\hat{y}-\epsilon{})^2}
+-2y(\hat{y}-\epsilon{})+\textcolor{red}{y^2}]}
+{(\textcolor{orange}{\hat{y}-\hat{y}})+(\textcolor{violet}{\epsilon{}+\epsilon{}})}
 \end{displaymath}
 
 % expansion and simplify
 \begin{displaymath}
-=\frac{[\textcolor{blue}{\hat{y}^2+2\hat{y}(eps)+(eps)^2}
--2y(\hat{y}+eps)+\textcolor{red}{y^2}]-
-[\textcolor{blue}{\hat{y}^2-2\hat{y}(eps)+(eps)^2}
--2y(\hat{y}-eps)+\textcolor{red}{y^2}]}
-{2*(eps)}
+=\frac{[\textcolor{blue}{\hat{y}^2+2\hat{y}(\epsilon{})+(\epsilon{})^2}
+-2y(\hat{y}+\epsilon{})+\textcolor{red}{y^2}]-
+[\textcolor{blue}{\hat{y}^2-2\hat{y}(\epsilon{})+(\epsilon{})^2}
+-2y(\hat{y}-\epsilon{})+\textcolor{red}{y^2}]}
+{2*(\epsilon{})}
 \end{displaymath}
 
 % negative distribution
 \begin{displaymath}
-=\frac{[\textcolor{blue}{\hat{y}^2}+\textcolor{orange}{2\hat{y}(eps)}
-+\textcolor{violet}{(eps)^2}-2y(\hat{y}+eps)+\textcolor{red}{y^2}]+
-[\textcolor{blue}{-\hat{y}^2}+\textcolor{orange}{2\hat{y}(eps)}
-\textcolor{violet}{-(eps)^2}+2y(\hat{y}-eps)\textcolor{red}{-y^2}]}
-{2*(eps)}
+=\frac{[\textcolor{blue}{\hat{y}^2}+\textcolor{orange}{2\hat{y}(\epsilon{})}
++\textcolor{violet}{(\epsilon{})^2}-2y(\hat{y}+\epsilon{})+\textcolor{red}{y^2}]+
+[\textcolor{blue}{-\hat{y}^2}+\textcolor{orange}{2\hat{y}(\epsilon{})}
+\textcolor{violet}{-(\epsilon{})^2}+2y(\hat{y}-\epsilon{})\textcolor{red}{-y^2}]}
+{2*(\epsilon{})}
 \end{displaymath}
 
 % group like terms
 \begin{displaymath}
 =\frac{(\textcolor{blue}{\hat{y}^2-\hat{y}^2})+[
-\textcolor{orange}{2\hat{y}(eps)+2\hat{y}(eps)}]+[
-\textcolor{violet}{(eps)^2-(eps)^2}]+[
--2y(\hat{y}+eps)+2y(\hat{y}+eps)]+[\textcolor{red}{y^2-y^2}]}
-{2*(eps)}
+\textcolor{orange}{2\hat{y}(\epsilon{})+2\hat{y}(\epsilon{})}]+[
+\textcolor{violet}{(\epsilon{})^2-(\epsilon{})^2}]+[
+-2y(\hat{y}+\epsilon{})+2y(\hat{y}+\epsilon{})]+[\textcolor{red}{y^2-y^2}]}
+{2*(\epsilon{})}
 \end{displaymath}
 
 % simplify
 \begin{displaymath}
-=\frac{\textcolor{orange}{4\hat{y}(eps)}+[\textcolor{violet}{-2y}
-(\textcolor{blue}{\hat{y}}+\textcolor{red}{eps})+\textcolor{violet}
-{2y}(\textcolor{blue}{\hat{y}}\textcolor{red}{-eps})]}
-{2*(eps)}
+=\frac{\textcolor{orange}{4\hat{y}(\epsilon{})}+[\textcolor{violet}{-2y}
+(\textcolor{blue}{\hat{y}}+\textcolor{red}{\epsilon{}})+\textcolor{violet}
+{2y}(\textcolor{blue}{\hat{y}}\textcolor{red}{-\epsilon{}})]}
+{2*(\epsilon{})}
 % distribute
-=\frac{\textcolor{orange}{4\hat{y}(eps)}+[\textcolor{violet}{-2y}
+=\frac{\textcolor{orange}{4\hat{y}(\epsilon{})}+[\textcolor{violet}{-2y}
 (\textcolor{blue}{\hat{y}})\textcolor{violet}{-2y}
-(\textcolor{red}{eps})]+[\textcolor{violet}{2y}
+(\textcolor{red}{\epsilon{}})]+[\textcolor{violet}{2y}
 (\textcolor{blue}{\hat{y}})\textcolor{violet}{-2y}
-(\textcolor{red}{eps})]}{2*(eps)}
+(\textcolor{red}{\epsilon{}})]}{2*(\epsilon{})}
 \end{displaymath}
 
 % combine like terms
 \begin{displaymath}
-=\frac{\textcolor{orange}{4\hat{y}(eps)}+[\textcolor{violet}{-2y}
+=\frac{\textcolor{orange}{4\hat{y}(\epsilon{})}+[\textcolor{violet}{-2y}
 (\textcolor{blue}{\hat{y}})+\textcolor{violet}{2y}
 (\textcolor{blue}{\hat{y}})]+[\textcolor{violet}{-2y}
-(\textcolor{red}{eps})\textcolor{violet}{-2y}
-(\textcolor{red}{eps})]}{2*(eps)}
+(\textcolor{red}{\epsilon{}})\textcolor{violet}{-2y}
+(\textcolor{red}{\epsilon{}})]}{2*(\epsilon{})}
 % simplify
-=\frac{\textcolor{orange}{4\hat{y}(eps)}\textcolor{violet}{-4y}
-(\textcolor{red}{eps})}{2*(eps)}
+=\frac{\textcolor{orange}{4\hat{y}(\epsilon{})}\textcolor{violet}{-4y}
+(\textcolor{red}{\epsilon{}})}{2*(\epsilon{})}
 % factor out 4
-=\frac{\textcolor{blue}{4}[\hat{y}(\textcolor{red}{eps})-
-(y(\textcolor{red}{eps})]}
-{\textcolor{blue}{2}*(\textcolor{red}{eps})}
+=\frac{\textcolor{blue}{4}[\hat{y}(\textcolor{red}{\epsilon{}})-
+(y(\textcolor{red}{\epsilon{}})]}
+{\textcolor{blue}{2}*(\textcolor{red}{\epsilon{}})}
 \end{displaymath}
 
 % simplify
 \begin{displaymath}
-=\frac{2[\hat{y}(\textcolor{red}{eps})-y(\textcolor{red}{eps})]}
-{\textcolor{red}{eps}}
-% factor out eps
-=\frac{2(\textcolor{red}{eps})[\hat{y}-y]}
-{\textcolor{red}{eps}}
+=\frac{2[\hat{y}(\textcolor{red}{\epsilon{}})-y(\textcolor{red}{\epsilon{}})]}
+{\textcolor{red}{\epsilon{}}}
+% factor out \epsilon{}
+=\frac{2(\textcolor{red}{\epsilon{}})[\hat{y}-y]}
+{\textcolor{red}{\epsilon{}}}
 =2(\hat{y}-y)
 \end{displaymath}
 
