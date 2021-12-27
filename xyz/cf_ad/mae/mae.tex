@@ -1,8 +1,19 @@
 \documentclass{article}
 \usepackage{xcolor}
+\usepackage{amsmath}
 \begin{document}
 
-When (ŷ - y) \textless{} 0:
+\begin{equation*}
+MAE = \left\{
+\begin{array}{ccc}
+-(\hat{y} - y), & \text{if }\hat{y} < y \\
+\hat{y} - y, & \text{if }\hat{y} > y \\
+0, & \text{if }\hat{y} = y
+\end{array} \right.
+\end{equation*}
+
+\bigskip\bigskip\bigskip\bigskip
+When ŷ \textless{} y:
 
 \begin{displaymath}
 \frac{\textcolor{blue}{J(\hat{y}+\epsilon, y)}
@@ -37,8 +48,8 @@ When (ŷ - y) \textless{} 0:
 = -1
 \end{displaymath}
 
-
-When (ŷ - y) \textgreater{} 0:
+\bigskip\bigskip\bigskip\bigskip
+When ŷ \textgreater{} y:
 
 \begin{displaymath}
 \frac{\textcolor{blue}{J(\hat{y}+\epsilon, y)}
@@ -71,6 +82,32 @@ When (ŷ - y) \textgreater{} 0:
 =\frac{\textcolor{orange}{2}\textcolor{violet}{\epsilon}}
 {\textcolor{orange}{2}\textcolor{violet}{\epsilon}}
 = 1
+\end{displaymath}
+
+\bigskip\bigskip\bigskip\bigskip
+When ŷ = y:
+
+\begin{displaymath}
+\frac{\textcolor{blue}{J(\hat{y}+\epsilon, y)}
+\textcolor{red}{-J(\hat{y}-\epsilon, y)}}
+{(\textcolor{orange}{\hat{y}}+\textcolor{violet}{\epsilon})-(
+\textcolor{orange}{\hat{y}}-\textcolor{violet}{\epsilon})}
+% substitution and negative distribution
+=\frac{\textcolor{blue}{0}
+\textcolor{red}{-0}}
+{(\textcolor{orange}{\hat{y}}+\textcolor{violet}{\epsilon})+(
+\textcolor{orange}{-\hat{y}}+\textcolor{violet}{\epsilon})}
+\end{displaymath}
+
+% simplify and group like terms
+\begin{displaymath}
+=\frac{0}{(\textcolor{orange}{\hat{y}-\hat{y}})+(\textcolor{violet}{\epsilon+\epsilon})}
+% combine like terms
+=\frac{0}{2\textcolor{violet}{\epsilon}}
+% ...substitution
+=\frac{0}{2(\textcolor{violet}{0})}
+% ...simplify
+=\frac{0}{0}=\text{undefined!}
 \end{displaymath}
 
 \end{document}  
