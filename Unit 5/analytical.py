@@ -15,6 +15,9 @@ class MAE_Cost:
     def forward(self, y_pred, y_true):    # y_pred is prediction from model, y_true is the answer
         return np.mean(np.abs(y_pred - y_true))
 
+    def backward(self, y_pred, y_true):
+        return np.sign(y_pred - y_true) / y_pred.size
+
 class MSE_Cost:
     def forward(self, y_pred, y_true):
         return np.mean(np.square(y_pred - y_true))
