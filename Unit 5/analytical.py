@@ -12,7 +12,7 @@ class Dense_Layer:
         self.inputs = inputs
         self.outputs = np.dot(inputs, self.weights) + self.biases
 
-    def backward(self, dvalues):
+    def backward(self, dvalues):    # dvalues is .dinputs from cost function
         self.dweights = np.dot(self.inputs.T, dvalues)
         self.dbiases = np.sum(dvalues, axis=0, keepdims=True)
 
