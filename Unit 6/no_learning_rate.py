@@ -42,6 +42,7 @@ y = np.array([[20], [30], [40], [50], [60], [70], [80], [90], [100]])    # one o
 mse = MSE_Cost()    # define cost function
 model = Dense_Layer(1, 1)    # 1 input feature, 1 neuron (output feature)
 model.forward(X)
+print(model.weights, model.biases)
 print("Original Cost:", mse.forward(model.outputs, y))
 
 mse.backward(model.outputs, y)
@@ -50,6 +51,7 @@ model.backward(mse.dinputs)
 # Check New Cost
 update_params(model)
 model.forward(X)
+print(model.weights, model.biases)
 print("New Cost:", mse.forward(model.outputs, y))
 
 print("\n")
