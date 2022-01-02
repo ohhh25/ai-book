@@ -50,7 +50,7 @@ optimizer = SGD_Optimizer(0.01)    # learning rate of 0.01
 
 model.forward(X)
 print(model.weights, model.biases)
-cost_history = []
+cost_history = []    # append to this list in the loop
 print("Original Cost:", mse.forward(model.outputs, y))
 
 for epochs in range(1000):
