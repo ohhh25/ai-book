@@ -71,6 +71,8 @@ for epochs in range(1000):
 model.forward(X)
 print(model.weights, model.biases)
 cost_history.append(mse.forward(model.outputs, y))
+weight_history.append(float(model.weights))
+bias_history.append(float(model.biases))
 print("New Cost:", cost_history[-1])
 
 def graph(data, xlabel, ylabel, fname):
