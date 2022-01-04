@@ -69,10 +69,10 @@ for epochs in range(1000):
 
 # Check New Cost
 model.forward(X)
-print(model.weights, model.biases)
-cost_history.append(mse.forward(model.outputs, y))
 weight_history.append(float(model.weights))
 bias_history.append(float(model.biases))
+print(model.weights, model.biases)
+cost_history.append(mse.forward(model.outputs, y))
 print("New Cost:", cost_history[-1])
 
 def graph(data, xlabel, ylabel, fname):
