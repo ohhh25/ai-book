@@ -89,10 +89,12 @@ print(model.weights, model.biases)
 cost_history.append(mse.forward(model.outputs, y))
 print("New Cost:", cost_history[-1])
 
+# Creating Lists of possible parameter values
 possible_w = np.arange(0, 24, 0.1)
 possible_b = np.arange(-20, 70, 1)
 
-costs = np.empty([len(possible_w), len(possible_b)])
+# Get cost values using combinations of possible parameter values
+costs = np.empty([len(possible_w), len(possible_b)])    # placeholder of cost values
 for w in range(len(possible_w)):
     for b in range(len(possible_b)):
         model.weights[0, 0] = possible_w[w]
@@ -102,10 +104,13 @@ for w in range(len(possible_w)):
         costs[w, b] = float(mse.forward(model.outputs, y))
 
 
+# Setup for Plotting
 fig = plt.figure()
-levels = (list(np.arange(20, 100, 40)))
+levels = list(np.arange(20, 100, 40))
 levels.extend(list(np.arange(100, 400, 100)))
 levels.extend(list(np.arange(400, 6000, 200)))
+
+# Plotting
 plt.contour(possible_b, possible_w, costs, levels=levels)
 plt.plot(bias_history, weight_history, color='red')
 plt.xlabel("Bias Values")
