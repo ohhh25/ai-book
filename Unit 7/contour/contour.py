@@ -2,7 +2,6 @@ print("\n")
 
 import numpy as np
 import matplotlib.pyplot as plt
-from tqdm import tqdm
 np.random.seed(0)    # For repeatability
 
 class Dense_Layer:
@@ -94,7 +93,7 @@ possible_w = np.arange(0, 24, 0.1)
 possible_b = np.arange(-20, 70, 1)
 
 costs = np.empty([len(possible_w), len(possible_b)])
-for w in tqdm(range(len(possible_w))):
+for w in range(len(possible_w)):
     for b in range(len(possible_b)):
         model.weights[0, 0] = possible_w[w]
         model.biases[0, 0] = possible_b[b]
