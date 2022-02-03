@@ -31,7 +31,7 @@ class MSE_Cost:
     def backward(self, y_pred, y_true):
         self.dinputs = (2 / y_pred.size) * (y_pred - y_true)
 
-class AdaGrad_Optimizer:
+class RMSProp_Optimizer:
     def __init__(self, learning_rate, rho=0.9, eps=1e-7):    # mu is coefficient of friction 
         self.lr = learning_rate
         self.rho = rho
@@ -71,7 +71,7 @@ y = np.array([[20], [30], [40], [50], [60], [70], [80], [90], [100]])    # one o
 
 mse = MSE_Cost()    # define cost function
 model = Dense_Layer(1, 1)    # 1 input feature, 1 neuron (output feature)
-optimizer = AdaGrad_Optimizer(0.2)    # learning rate of 0.2
+optimizer = RMSProp_Optimizer(0.2)    # learning rate of 0.2
 
 model.forward(X)
 print(model.weights, model.biases)
