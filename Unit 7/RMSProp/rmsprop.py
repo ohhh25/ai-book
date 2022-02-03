@@ -32,15 +32,15 @@ class MSE_Cost:
         self.dinputs = (2 / y_pred.size) * (y_pred - y_true)
 
 class RMSProp_Optimizer:
-    def __init__(self, learning_rate, rho=0.9, eps=1e-7):    # mu is coefficient of friction 
+    def __init__(self, learning_rate, rho=0.9, eps=1e-7):    # rho is decay rate
         self.lr = learning_rate
         self.rho = rho
         self.eps = eps
     
     def update_params(self, layer):    # dense layer
-        # if layer does not have the attribute "v_weights",
-        # meaning that the layer also does not have the attribute "v_biases",
-        # we will give the let's initialize those attributes with velocities as 0
+        # if layer does not have the attribute "cache_weights",
+        # meaning that the layer also does not have the attribute "cache_biases",
+        # we will give the let's initialize those attributes with cache as 0
         if hasattr(layer, "cache_weights") == False:
             layer.cache_weights = np.zeros_like(layer.weights)
             layer.cache_biases = np.zeros_like(layer.biases)
