@@ -52,18 +52,6 @@ class RMSProp_Optimizer:
         layer.biases += (self.lr / (np.sqrt(layer.cache_biases) + self.eps)) * -layer.dbiases
 
 
-class Step_Decayer:
-    def __init__(self, optimizer, decay_factor):
-        self.epochs = 0
-        self.optimizer = optimizer
-        self.initial_lr = optimizer.lr
-        self.decay_factor = decay_factor
-
-    def update_learning_rate(self):
-        self.epochs += 1
-        self.optimizer.lr = self.initial_lr / (1 + (self.decay_factor * self.epochs))
-
-
 # hours studied
 X = np.array([[0], [1], [2], [3], [4], [5], [6], [7], [8]])    # one input feature for each example
 # percentage
