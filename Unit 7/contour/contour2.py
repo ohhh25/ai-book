@@ -40,7 +40,7 @@ class RMSProp_Optimizer:
     def update_params(self, layer):    # dense layer
         # if layer does not have the attribute "cache_weights",
         # meaning that the layer also does not have the attribute "cache_biases",
-        # we will give the let's initialize those attributes with cache as 0
+        # so let's initialize those attributes with cache as 0
         if hasattr(layer, "cache_weights") == False:
             layer.cache_weights = np.zeros_like(layer.weights)
             layer.cache_biases = np.zeros_like(layer.biases)
