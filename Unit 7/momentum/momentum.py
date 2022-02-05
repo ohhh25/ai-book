@@ -39,7 +39,7 @@ class SGD_Optimizer:
     def update_params(self, layer):    # dense layer
         # if layer does not have the attribute "v_weights",
         # meaning that the layer also does not have the attribute "v_biases",
-        # we will give the let's initialize those attributes with velocities as 0
+        # so let's initialize those attributes with velocities as 0
         if hasattr(layer, "v_weights") == False:
             layer.v_weights = np.zeros_like(layer.weights)
             layer.v_biases = np.zeros_like(layer.biases)
