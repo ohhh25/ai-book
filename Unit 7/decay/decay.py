@@ -52,7 +52,7 @@ class RMSProp_Optimizer:
         layer.biases += (self.lr / (np.sqrt(layer.cache_biases) + self.eps)) * -layer.dbiases
 
 
-class Step_Decayer:
+class Learning_Rate_Decayer:
     def __init__(self, optimizer, decay_factor):
         self.epochs = 0
         self.optimizer = optimizer
@@ -72,7 +72,7 @@ y = np.array([[20], [30], [40], [50], [60], [70], [80], [90], [100]])    # one o
 mse = MSE_Cost()    # define cost function
 model = Dense_Layer(1, 1)    # 1 input feature, 1 neuron (output feature)
 optimizer = RMSProp_Optimizer(0.2)    # learning rate of 0.2
-decayer = Step_Decayer(optimizer, 0.01)
+decayer = Learning_Rate_Decayer(optimizer, 0.01)
 
 model.forward(X)
 print(model.weights, model.biases)
