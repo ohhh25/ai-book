@@ -92,7 +92,8 @@ for epochs in range(400):
     mse.backward(model.outputs, y)
     model.backward(mse.dinputs)
 
-    optimizer.update_params(model)    # update
+    # update parameters & learning rate
+    optimizer.update_params(model)
     decayer.update_learning_rate()
 
 # Check New Cost
