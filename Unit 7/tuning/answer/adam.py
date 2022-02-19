@@ -90,7 +90,7 @@ y = np.array([[20], [30], [40], [50], [60], [70], [80], [90], [100]])    # one o
 
 mse = MSE_Cost()    # define cost function
 model = Dense_Layer(1, 1)    # 1 input feature, 1 neuron (output feature)
-optimizer = Adam_Optimizer(0.4)    # learning rate of 0.4
+optimizer = Adam_Optimizer(0.2)    # learning rate of 0.2
 decayer = Learning_Rate_Decayer(optimizer, 0.001)
 
 model.forward(X)
@@ -99,7 +99,7 @@ cost_history, lr_history = [], []    # append to this list in the loop
 weight_history, bias_history = [], []    # append in loop
 print("Original Cost:", mse.forward(model.outputs, y))
 
-for epochs in range(400):
+for epochs in range(600):
     # forward pass
     model.forward(X)
     weight_history.append(float(model.weights))
