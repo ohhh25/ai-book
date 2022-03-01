@@ -1,3 +1,5 @@
+print("\n")
+
 import matplotlib.pyplot as plt    # version 3.4.0
 import numpy as np    # version 1.22.2
 import pandas as pd    # version 1.4.0
@@ -21,3 +23,5 @@ plt.legend()
 
 fig.savefig("modified.png")
 plt.close()
+
+print("\n")
