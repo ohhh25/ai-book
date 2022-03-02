@@ -19,8 +19,6 @@ plt.plot(modified[:, 1], label="TMIN")    # plotting minimum temperatures on gra
 plt.legend()    # show legend to differentiate colored lines
 
 plt.ylabel("temperature (°C)")
-plt.legend()
-
 fig.savefig("modified.png")
 plt.close()
 
