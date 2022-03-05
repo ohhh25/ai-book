@@ -47,7 +47,7 @@ y = modified.copy()
 
 model = Dense_Layer(1, 2)    # one input feature, 2 neurons (output features)
 mse = MSE_Cost()    # define cost function
-optimizer = SGD_Optimizer(0.001)    # learning rate of 0.0001
+optimizer = SGD_Optimizer(0.001)    # learning rate of 0.001
 
 model.forward(X)
 cost_history = []    # append to this list in training loop
