@@ -50,14 +50,12 @@ mse = MSE_Cost()    # define cost function
 optimizer = SGD_Optimizer(0.001)    # learning rate of 0.001
 
 model.forward(X)
-cost_history = []    # append to this list in training loop
 print("Initial Cost:", mse.forward(model.outputs, y))
 
 for epochs in range(10):
     # forward pass
     model.forward(X)
     cost = mse.forward(model.outputs, y)
-    cost_history.append(cost)
     print(cost)
 
     # backward pass
@@ -68,7 +66,6 @@ for epochs in range(10):
 # Check New Cost
 model.forward(X)
 cost = mse.forward(model.outputs, y)
-cost_history.append(cost)
 print("Final Cost:", cost)
 
 fig = plt.figure()    # create a graphing space
