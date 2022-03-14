@@ -10,14 +10,11 @@ def normalize(X, min=0):
     return X
 
 X = np.random.uniform(low=-10, high=20, size=[4, 3])
-print(X)
+print(X) 
+print(X.min(axis=0), X.max(axis=0))
 
 X = normalize(X)
-print("\n[0, 1] range:")
-print(X)
-
-X = normalize(X, min=-1)
-print("\n[-1, 1] range:")
-print(X)
+print("\n", X)
+print(X.min(axis=0), X.max(axis=0))
 
 print("\n")
