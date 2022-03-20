@@ -62,7 +62,6 @@ y = modified.copy()
 # add in x^2 and x^3 input feature
 DEGREE = 3    # degree  of polynomial
 Xs = np.empty_like(X, shape=[len(X), DEGREE])
-print(Xs.shape)
 for power in range(1, DEGREE+1):
     Xs[:, power-1] = np.power(X, power)
 X = Xs.copy()
