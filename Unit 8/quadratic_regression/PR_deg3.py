@@ -82,11 +82,11 @@ optimizer = SGD_Optimizer(0.1, mu=0.9)    # learning rate of 0.1, momentum of 0.
 model.forward(X)
 print("Initial Cost:", mse.forward(model.outputs, y))
 
-for epochs in range(400):
+for epochs in range(200):
     # forward pass
     model.forward(X)
     cost = mse.forward(model.outputs, y)
-    if epochs % 40 == 0:
+    if epochs % 20 == 0:
         print(cost)
 
     # backward pass
