@@ -98,7 +98,7 @@ class Neural_Network:
         
 
 model = Neural_Network(1, 4, 2)    # 1 input feature, 4 hidden units, 2 output features
-optimizer = SGD_Optimizer(learning_rate=0.01)   # learning rate is 0.001
+optimizer = SGD_Optimizer(learning_rate=0.01)   # learning rate is 0.01
 
 model.forward(X, y)
 print("Initial Cost:", model.cost)
