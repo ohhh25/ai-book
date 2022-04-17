@@ -106,13 +106,13 @@ model.forward(X, y)
 print("Initial Cost:", model.cost)
 
 cost_history = []    # append to this in training loop
-for epochs in range(400):
+for epochs in range(600):
     # forward pass
     model.forward(X, y)
     cost_history.append(model.cost)
 
     # check for dead neurons
-    if epochs % 40 == 0:
+    if epochs % 60 == 0:
         n = sum((model.hidden_layer.outputs < 0).all(axis=0))    # number of dead neurons
         percentage = (n / model.hidden_layer.biases.size) * 100    # percentage of dead neurons
         print(f"Cost: {model.cost} - Percentage of Dead neurons: {percentage}%")
