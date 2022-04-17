@@ -144,7 +144,7 @@ for epochs in range(2000):
 
     # check for dead neurons
     if epochs % 200 == 0:
-        # number & percentage of dead neurons
+        # cost & percentage of dead neurons
         print(f"Cost: {model.cost} - Dead1: {get_dead(model.hidden_layer1)}% - " + \
             f"Dead2: {get_dead(model.hidden_layer2)}% - Dead3: {get_dead(model.hidden_layer3)}%")
 
