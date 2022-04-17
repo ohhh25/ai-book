@@ -114,7 +114,7 @@ class Neural_Network:
         self.hidden_layer1.backward(self.activation1.dinputs)
         
 
-model = Neural_Network(1, 48, 2)    # 1 input feature, 48 hidden units, 2 output features
+model = Neural_Network(1, 64, 2)    # 1 input feature, 64 hidden units, 2 output features
 optimizer = RMSProp_Optimizer(learning_rate=0.006)
 # every 100 epochs, denominator increases by 1
 decayer = Learning_Rate_Decayer(optimizer, 0.01)
@@ -126,13 +126,13 @@ model.forward(X, y)
 print("Initial Cost:", model.cost)
 
 cost_history = []    # append to this in training loop
-for epochs in range(1000):
+for epochs in range(1600):
     # forward pass
     model.forward(X, y)
     cost_history.append(model.cost)
 
     # check for dead neurons
-    if epochs % 100 == 0:
+    if epochs % 160 == 0:
         # number & percentage of dead neurons in first hidden layer
         n1 = sum((model.hidden_layer1.outputs < 0).all(axis=0))
         percentage1 = (n1 / model.hidden_layer1.biases.size) * 100
