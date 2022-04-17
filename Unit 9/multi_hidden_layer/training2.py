@@ -112,7 +112,11 @@ class Neural_Network:
         self.hidden_layer2.backward(self.activation2.dinputs)
         self.activation1.backward(self.hidden_layer2.dinputs)
         self.hidden_layer1.backward(self.activation1.dinputs)
-        
+
+def get_dead(layer):
+    n = sum((layer.outputs < 0).all(axis=0))
+    return (n / layer.biases.size) * 100   
+
 
 model = Neural_Network(1, 36, 2)    # 1 input feature, 36 hidden units, 2 output features
 optimizer = RMSProp_Optimizer(learning_rate=0.006)
@@ -133,12 +137,9 @@ for epochs in range(800):
 
     # check for dead neurons
     if epochs % 80 == 0:
-        # number & percentage of dead neurons in first hidden layer
-        n1 = sum((model.hidden_layer1.outputs < 0).all(axis=0))
-        percentage1 = (n1 / model.hidden_layer1.biases.size) * 100
-        n2 = sum((model.hidden_layer2.outputs < 0).all(axis=0))
-        percentage2 = (n2 / model.hidden_layer2.biases.size) * 100
-        print(f"Cost: {model.cost} - Dead1: {percentage1}% - Dead2: {percentage2}")
+        # number & percentage of dead neurons
+        print(f"Cost: {model.cost} - Dead1: {get_dead(model.hidden_layer1)}% - " + \
+            f"Dead2: {get_dead(model.hidden_layer2)}")
 
     # backward pass
     model.backward(y)
