@@ -114,7 +114,7 @@ class Neural_Network:
         self.hidden_layer1.backward(self.activation1.dinputs)
         
 
-model = Neural_Network(1, 48, 2)    # 1 input feature, 36 hidden units, 2 output features
+model = Neural_Network(1, 48, 2)    # 1 input feature, 48 hidden units, 2 output features
 optimizer = RMSProp_Optimizer(learning_rate=0.006)
 # every 100 epochs, denominator increases by 1
 decayer = Learning_Rate_Decayer(optimizer, 0.01)
