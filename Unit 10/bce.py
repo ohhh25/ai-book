@@ -1,4 +1,4 @@
-import numpy as np
+import numpy as np    # version 1.22.2
 np.random.seed(0)    # For repeatability
 
 # Does not handle for extreme values (e.g. 0 or 1)
