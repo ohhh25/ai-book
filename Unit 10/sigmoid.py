@@ -5,7 +5,6 @@ np.random.seed(0)    # For repeatability
 
 class Sigmoid_Activation:
     def forward(self, inputs):    # inputs are outputs from dense layer
-        self.inputs = inputs    # save inputs for backward method
         self.outputs = 1 / (1 + np.exp(-inputs))
         
     def backward(self, dvalues):    # dvalues has same shape as inputs
