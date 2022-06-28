@@ -23,7 +23,7 @@ for i in range(len(ys)):
 dataset['Class'] = ys
 
 # Split the dataset into X and y
-dataset = dataset.to_numpy()
+dataset = dataset.to_numpy(dtype=float)
 X, y = dataset[:, 0:-1], dataset[:, -1].astype(int)
 y = np.expand_dims(y, axis=-1)
 print(X.shape, y.shape)
