@@ -204,7 +204,7 @@ print(f"Final Cost: {cost_history[-1]} - Final Accuracy: {accuracy_history[-1]}%
 model.forward(X_val, y_val)
 val_cost.append(model.cost)
 val_accuracy.append(get_accuracy(model.output_activation.outputs, y_val))
-print(f"Final Validation Cost: {val_cost[-1]} - Final Validation Accuracy: {val_accuracy[-1]}%")
+print(f"Final Val Cost: {val_cost[-1]} - Final Val Accuracy: {val_accuracy[-1]}%")
 
 # Test the model on the test set
 model.forward(X_test, y_test)
