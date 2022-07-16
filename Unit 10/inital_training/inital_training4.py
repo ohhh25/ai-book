@@ -70,7 +70,7 @@ class RMSProp_Optimizer:
         layer.biases += (self.lr / (np.sqrt(layer.cache_biases) + self.eps)) * -layer.dbiases
 
 
-dataset = pd.read_excel("Pistachio_16_Features_Dataset.xlsx", )
+dataset = pd.read_excel("Pistachio_16_Features_Dataset.xlsx")
 to_drop = ['ECCENTRICITY', 'EQDIASQ', 'SOLIDITY', 'CONVEX_AREA', 
            'EXTENT', 'COMPACTNESS', 'SHAPEFACTOR_3', 'SHAPEFACTOR_4']
 
