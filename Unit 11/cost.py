@@ -16,9 +16,11 @@ class Categorical_Cross_Entropy_Cost:
 
 y_hat = np.array([[-2, 2, 5]])
 y_true = np.array([2])
+
 softmax = Softmax_Activation()
-softmax.forward(y_hat)
 cce = Categorical_Cross_Entropy_Cost()
+
+softmax.forward(y_hat)
 print(cce.forward(softmax.output, y_true))
 
 
