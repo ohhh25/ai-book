@@ -86,16 +86,8 @@ to_drop = ['ECCENTRICITY', 'EQDIASQ', 'SOLIDITY', 'CONVEX_AREA',
 dataset = dataset.drop(to_drop, axis=1)
 
 # Convert the Classes to 0s and 1s
-ys = dataset['Class'].copy()
-for i in range(len(ys)):
-    if ys[i] == 'Kirmizi_Pistachio':
-        ys[i] = 0
-    elif ys[i] == 'Siit_Pistachio':
-        ys[i] = 1
-    else:
-        print("oh no!!")
-
-dataset['Class'] = ys
+classes = {"Kirmizi_Pistachio": 0, "Siit_Pistachio": 1}
+dataset['Class'] = dataset['Class'].replace(classes)
 
 # Split the dataset into X and y
 dataset = dataset.to_numpy(dtype=float)
