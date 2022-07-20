@@ -4,7 +4,7 @@ import numpy as np    # version 1.22.2
 import pandas as pd    # version 1.4.0
 np.random.seed(0)    # For repeatability
 
-dataset = pd.read_excel("Pistachio_16_Features_Dataset.xlsx", )
+dataset = pd.read_excel("Pistachio_16_Features_Dataset.xlsx")
 to_drop = ['ECCENTRICITY', 'EQDIASQ', 'SOLIDITY', 'CONVEX_AREA', 
            'EXTENT', 'COMPACTNESS', 'SHAPEFACTOR_3', 'SHAPEFACTOR_4']
 
