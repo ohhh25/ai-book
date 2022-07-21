@@ -6,7 +6,7 @@ np.random.seed(0)    # For repeatability
 class Softmax_Activation:
     def forward(self, inputs):
         exponentiated = np.exp(inputs - np.max(inputs, axis=1, keepdims=True))
-        self.output = exponentiated / np.sum(exponentiated, axis=1, keepdims=True)
+        self.outputs = exponentiated / np.sum(exponentiated, axis=1, keepdims=True)
 
 class Categorical_Cross_Entropy_Cost:
     def forward(self, y_pred, y_true):
@@ -21,10 +21,10 @@ class Softmax_Cross_Entropy:
 
     def forward(self, y_pred, y_true):
         self.softmax.forward(y_pred)
-        return self.cce.forward(self.softmax.output, y_true)
+        return self.cce.forward(self.softmax.outputs, y_true)
 
     def backward(self, y_true):
-        self.dinputs = self.softmax.output.copy()
+        self.dinputs = self.softmax.outputs.copy()
         self.dinputs[range(len(y_true)), y_true] -= 1
         self.dinputs = self.dinputs / len(y_true)
 
