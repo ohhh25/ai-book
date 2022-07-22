@@ -19,8 +19,8 @@ class Softmax_Cross_Entropy:
         self.softmax = Softmax_Activation()
         self.cce = Categorical_Cross_Entropy_Cost()
 
-    def forward(self, y_pred, y_true):
-        self.softmax.forward(y_pred)
+    def forward(self, inputs, y_true):
+        self.softmax.forward(inputs)
         return self.cce.forward(self.softmax.outputs, y_true)
 
     def backward(self, y_true):
