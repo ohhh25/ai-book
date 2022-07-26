@@ -88,7 +88,6 @@ dataset = pd.read_csv("iris.csv")
 classes = {"Iris-setosa": 0, "Iris-versicolor": 1, "Iris-virginica": 2}
 dataset["class"] = dataset["class"].replace(classes)
 dataset = dataset.to_numpy(dtype=float)
-np.random.shuffle(dataset)
 
 def standardize(X, mean=None, std=None):
     if mean is None and std is None:    # for the training set
