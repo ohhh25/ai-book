@@ -18,7 +18,7 @@ person4_X = 3
 def one_neuron(X):    # one input feature, multiple examples
     w = 5
     b = -10
-    return (w * Xs) + b
+    return (w * X) + b
 
 print(one_neuron(person1_X))
 print(one_neuron(person2_X))
