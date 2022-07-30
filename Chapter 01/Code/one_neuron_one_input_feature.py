@@ -15,7 +15,7 @@ person1_X = 2
 person2_X = -2
 person3_X = 5
 person4_X = 3
-def one_neuron(X):    # one input feature, multiple examples
+def one_neuron(X):    # one input feature
     w = 5
     b = -10
     return (w * X) + b
