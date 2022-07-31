@@ -7,7 +7,7 @@ Special Thanks to my co-author/editor: Aiden Choe
 
 This book is aimed towards **high schoolers** so that **you <ins>can</ins> begin** building your own AI. Most of the important concepts used in AI are based on calculus. **However**, calculus was built on algebra. As a result, this book brings any calculus concepts used in AI down to algebra, which is more familiar to high schoolers. 
 
-## How can I trust that you are credible enough to be the author of this book? 🤨
+## How can I trust your credibility as the author of this book? 🤨
 1. I have successfully completed Coursera's Machine Learning Course from Stanford University's Stanford Online Program (certificate available for viewing [here](https://coursera.org/share/ad47e4264bf733454b1e37f968d10ebf).
 2. I have already taken AP Calculus AB with an exam score of a 5 (with a solid understanding of calculus, I can easily bring calculus concepts used in AI down to algebra).
 3. I am a high schooler so I know exactly which math concepts high schoolers know and which math concepts need to be brought down to algebra level.
