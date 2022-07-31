@@ -3,7 +3,7 @@
 by Lukas Cao<br>
 Special Thanks to my friend & editor Aiden Choe
 
-<ins>**AI (Artificial Intelligence)**</ins> is changing the landscape of multiple industries as we know it. In recent examples, AI has been used to save scientists an immense amount of time during the COVID-19 pandemic, producing a global impact. But what if you **<ins>could</ins> build your own AI** to do your homework, chores, or even just act as a personal companion when you are lonely?
+<ins>**AI (Artificial Intelligence)**</ins> is changing the landscape of multiple industries as we know it. In recent examples, AI has been used to save scientists an immense amount of time during the COVID-19 pandemic, producing a global impact. But what if **<ins>you</ins> could build your own AI** to do your homework, chores, or even just act as a personal companion when you are lonely?
 
 This book is aimed towards **high schoolers** so that **you <ins>can</ins> begin** building your own AI. Most of the important concepts used in AI are based on calculus. **However**, calculus was built on algebra. As a result, this book brings any calculus concepts used in AI down to algebra, which is more familiar to high schoolers. 
 
