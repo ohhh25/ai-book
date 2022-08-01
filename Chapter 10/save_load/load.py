@@ -65,25 +65,6 @@ class Softmax_Cross_Entropy:
         self.dinputs[range(len(y_true)), y_true] -= 1
         self.dinputs = self.dinputs / len(y_true)
 
-class SGD_Optimizer:
-    def __init__(self, learning_rate, mu=0):
-        self.lr = learning_rate    # lr is short for learning rate
-        self.mu = mu    # friction
-
-
-    def update_params(self, layer):
-        if hasattr(layer, "v_weights") == False:
-            layer.v_weights = np.zeros_like(layer.weights)
-            layer.v_biases = np.zeros_like(layer.biases)
-
-        # Velocities
-        layer.v_weights = (self.mu * layer.v_weights) + (-layer.dweights * self.lr)
-        layer.v_biases = (self.mu * layer.v_biases) + (-layer.dbiases * self.lr)
-        
-        # add weighted sum of gradients to update
-        layer.weights += layer.v_weights
-        layer.biases += layer.v_biases
-
 dataset = pd.read_csv("iris.csv")
 classes = {"Iris-setosa": 0, "Iris-versicolor": 1, "Iris-virginica": 2}
 dataset["class"] = dataset["class"].replace(classes)
