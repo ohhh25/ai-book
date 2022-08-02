@@ -7,8 +7,14 @@ Special thanks to my friend, [Aiden Choe](https://github.com/aidenchoe), for hel
 
 This book is aimed towards **high schoolers** so that **you <ins>can</ins> begin** building your own AI. Most of the important concepts used in AI are based on calculus. **However**, calculus was built on algebra. As a result, this book brings any calculus concepts used in AI down to algebra, which is more familiar to high schoolers. 
 
+## Why am I writing this book?
+There are many other books on AI that may even convey the same information better than this one. However, I would like to inform you that **understanding AI is NOT friendly to high schoolers**. Many online courses and other books bring in mind-boggling math equations that high schoolers cannot easily comprehend. The result? You may end up to quit learning AI because you doubt that you have the capability but you will be <ins>unable</ins> to enjoy creating your own AI. Unfortunately I had a friend that went through this experience. 
+
+In order for future high schoolers to successfully learn AI, this book will attempt to convert AI, a "non-high-schooler friendly” subject, to a “high-schooler friendly” subject. How? By getting rid of as much of the messy math that is beyond high school as possible. For example, take the happy y = mx + b equation from your Algebra 1 class or Math 1 class (mangeable level of mathematics). That equation is the absolute drive of AI, without it, there is no AI and you will soon understand why. Instead of **directly** teaching you the linear algebra to use the y = mx + b equation, we teach it **indirectly**.
+
+
 ## How can I trust your credibility as the author of this book? 🤨
-1. I have successfully completed Coursera's Machine Learning Course from Stanford University's Stanford Online Program (certificate available for viewing [here](https://coursera.org/share/ad47e4264bf733454b1e37f968d10ebf).
+1. I have successfully completed Coursera's Machine Learning Course from Stanford University's Stanford Online Program (certificate available for viewing [here](https://coursera.org/share/ad47e4264bf733454b1e37f968d10ebf)).
 2. I have already taken AP Calculus AB with an exam score of a 5 (with a solid understanding of calculus, I can easily bring calculus concepts used in AI down to algebra).
 3. I am a high schooler so I know exactly which math concepts high schoolers know and which math concepts need to be brought down to algebra level.
 4. This book is an open source format, meaning...its free! There is no fee to learn! Cancel your commitment anytime!
