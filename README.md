@@ -1,7 +1,7 @@
 # Welcome to the Introduction to Artificial Intelligence <br> for High Schoolers Book!!!! 😀
 
 by Lukas Cao<br>
-Special Thanks to my friend & editor Aiden Choe
+Special thanks to my friend, [Aiden Choe](https://github.com/aidenchoe), for helping me edit this book.
 
 <ins>**AI (Artificial Intelligence)**</ins> is changing the landscape of multiple industries as we know it. In recent examples, AI has been used to save scientists an immense amount of time during the COVID-19 pandemic, producing a global impact. But what if **<ins>you</ins> could build your own AI** to do your homework, chores, or even just act as a personal companion when you are lonely?
 
