@@ -87,7 +87,7 @@ Chapter 10| Multi-Class Classification
 - Mini-Batch Gradient Descent
 - Saving/Loading Models
 
-
+<br>
 Details on how to access and run the code is available here (tbd).
 
 ## About the Author's Journey in this Field of High Potential
