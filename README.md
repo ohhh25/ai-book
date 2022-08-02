@@ -13,13 +13,6 @@ There are many other books on AI that may even convey the same information bette
 In order for future high schoolers to successfully learn AI, this book will attempt to convert AI, a "non-high-schooler friendly” subject, to a “high-schooler friendly” subject. How? By getting rid of as much of the messy math that is beyond high school as possible. For example, take the happy y = mx + b equation from your Algebra 1 class or Math 1 class (mangeable level of mathematics). That equation is the absolute drive of AI, without it, there is no AI and you will soon understand why. Instead of **directly** teaching you the linear algebra to use the y = mx + b equation, we teach it **indirectly**.
 
 
-## How can I trust your credibility as the author of this book? 🤨
-1. I have successfully completed Coursera's Machine Learning Course from Stanford University's Stanford Online Program (certificate available for viewing [here](https://coursera.org/share/ad47e4264bf733454b1e37f968d10ebf)).
-2. I have already taken AP Calculus AB with an exam score of a 5 (with a solid understanding of calculus, I can easily bring calculus concepts used in AI down to algebra).
-3. I am a high schooler so I know exactly which math concepts high schoolers know and which math concepts need to be brought down to algebra level.
-4. This book is an open source format, meaning...its free! There is no fee to learn! Cancel your commitment anytime!
-<br>
-
 ## Structure of this book 📚
 Chapter 00| Basics of Neural Networks<br>
 - Overview of AI and its Parts<br>
@@ -110,3 +103,12 @@ Skip ahead a few weeks and I finally got one car to detect lane lines, but I did
 Therefore, I decided to actually begin learning AI. On Coursera, I found an 11-week course on Machine Learning taught by Andrew Ng, former Stanford University Professor, which I enrolled in mid-August. The course was clearly meant for calculus students so I struggled with the equations, but I <ins>**persevered**</ins>; and now, it has brought me to where I am right now, writing a book for other high schoolers to help them understand AI without going through an online class with messy, confusing math equations. 
 
 Hopefully you will enjoy this book to save yourself a lot of time in taking another step into the field of AI. I will try my best to convey the concepts in a different but relatable way to make understanding as easy as possible. Most importantly, I will bring calculus back down to the level of algebra (a high schooler’s math level). I hope you will enjoy this book! Thank you for reading.
+
+
+## How can I trust your credibility as the author of this book? 🤨
+1. I have successfully completed Coursera's Machine Learning Course from Stanford University's Stanford Online Program (certificate available for viewing [here](https://coursera.org/share/ad47e4264bf733454b1e37f968d10ebf)).
+2. I have already taken AP Calculus AB with an exam score of a 5 (with a solid understanding of calculus, I can easily bring calculus concepts used in AI down to algebra).
+3. I am a high schooler so I know exactly which math concepts high schoolers know and which math concepts need to be brought down to algebra level.
+4. This book is an open source format, meaning...its free! There is no fee to learn! Cancel your commitment anytime!
+<br>
+
