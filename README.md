@@ -13,19 +13,94 @@ This book is aimed towards **high schoolers** so that **you <ins>can</ins> begin
 3. I am a high schooler so I know exactly which math concepts high schoolers know and which math concepts need to be brought down to algebra level.
 4. This book is an open source format, meaning...its free! There is no fee to learn! Cancel your commitment anytime!
 <br>
-Details on the structure/format of the book on how to access and run the code is available here (tbd).
+
+## Structure of this book 📚
+Chapter 00: Basics of Neural Networks<br>
+- Overview of AI and its Parts<br>
+- Connecting Biological Neural Networks to Artificial Neural Networks<br>
+- Steps for Artificial Neural Network
+- Basic Application of an Artificial Neural Network to Help Concepts “Sink In” Faster<br>
+
+Chapter 01| Simple Artificial Neural Network Architecture<br>
+- Scalars, Vectors, and Matrices 
+- What “goes on” inside one Artificial Neuron?<br>
+- What “goes on” inside one layer of Artificial Neurons?<br>
+- Virtual layer (object) of Artificial Neurons
+
+Chapter 02| Step #1 of Training: Defining Error
+- Why do we need to Define a Metric for Error?<br>
+- Metrics for Error (Cost Functions) <br>
+
+Chapter 03| Possible Error Reduction Methods
+- Random, Random, Random!<br>
+- Random Updates!<br>
+
+Unit 04| Gradient Descent: The Perfect Algorithm To Use In Training
+- Connection Of Hill To Cost Function & Using Slope at a Point (derivative) to determine Update Direction<br>
+- Numerical Derivative<br>
+- Calculus Chain Rule for High Schoolers<br>
+- Cost Function Backward Method (Analytical Derivative)<br>
+- Dense Layer Backward Method (Analytical Derivative)
+
+Chapter 05| Stochastic Gradient Descent & Learning Rate
+- Gradient Descent **Without** Learning Rate<br>
+- Gradient Descent **With** Learning Rate<br>
+- Limitations of SGD<br>
+
+Chapter 06| Other Types of Optimizers
+- Momentum
+- **R**oot **M**ean **S**quare **Prop**agation (RMSProp)
+- Learning Rate Decay
+- **Ada**ptive **M**omentum (Adam)
+- Hyperparameter Tuning
+
+Chapter 07| Linear Regression Application
+- Dataset Download
+- Data Setup
+- Training
+- Normalization
+- Standardization
+- Linear Regression Is Not Good Enough!
+- Higher-Order Polynomial Regression Is Better than Linear Regression!
+
+Chapter 08| Actual Neural Networks
+- Problem With Just Simply Stacking Dense Layers On Top of Each Other
+- Solution to Making Neural Networks Actually Work: Activation Functions
+- Neural Network Architecture
+- ReLU Activation Function & Dense Layer Backward Modification
+- Finally Training An Actual Neural Network (One Hidden Layer)
+- Neural Networks with Multiple Hidden Layers
+
+Chapter 09| Binary Classification
+- Introduction to Classification
+- Dataset Download
+- Training Setup & Initial Training
+- Checking the Model’s Reliability 
+- Regularization
+- Dropout
+
+Chapter 10| Multi-Class Classification
+- Structure of Datasets
+- Softmax Activation Function
+- Categorical Cross Entropy Cost
+- Dataset & Setup
+- Mini-Batch Gradient Descent
+- Saving/Loading Models
+
+
+Details on how to access and run the code is available here (tbd).
 
 ## About the Author's Journey in this Field of High Potential
-I first got into AI because I thought it was unbelievable how you can give a machine an image and it will somehow recognize the type of object presented. The most impressive breakthrough that got me excited about this field was when a machine beat a human in the game Go. How could a machine, that spent considerably less time to learn the game, gain enough knowledge about its strategies to beat a champion? 
+I first got into AI because I thought it was unbelievable how you can give a machine an image and it will somehow recognize the type of object presented. The most impressive breakthrough that got me excited about this field was when a machine beat a human in the game Go. How could a machine, that **spent considerably less time** to learn the game, gain enough knowledge about its strategies to beat a champion? 
 
 My father, who works with AI himself by programming robots, initiated my journey into AI and I still enjoy learning more complex AI and working on AI projects. 
 
-After my sixth grade year he asked me if I wanted to make a website. It was very sudden, but I agreed because I would learn how the “cool guys” (programmers) make websites with their coding skills. This wasn't related to AI, but that was the first time I dipped my feet into the field of computer science and started programming.  Later sometime during my junior-high years, I started learning Python. Though I quit the first time due to its difficulty, I pushed through the second time.
+After my sixth grade year he asked me if I wanted to make a website. It was very sudden, but I agreed because I would learn how the “cool guys” (programmers) make websites with their coding skills. This wasn't related to AI, but that was the first time I dipped my feet into the field of computer science and started programming. Later sometime during my junior-high years, I started learning Python. Though I quit the first time due to its difficulty, I pushed through the second time.
 
-It was the summer of my freshman year at high school when my father suggested me to start a project on AI and self-driving cars was my number one pick. The problem was, I did not know anything about making AI and ended up going on Github to copy and paste other people’s work, hoping it would work for me. Unfortunately for me, it wasn't that simple, and I didn’t understand much of the README files and their steps,leading to several errors. 
+It was the summer of my freshman year at high school when my father suggested me to start a project on AI and self-driving cars was my number one pick. The problem was, I <ins>did not know anything</ins> about making AI and ended up going on Github to copy and paste other people’s work, hoping it would work for me. Unfortunately for me, it wasn't that simple, and I didn’t understand much of the README files and their steps,leading to several errors. 
 
-Skip ahead a few weeks and I finally got one car to detect lane lines, but I didn’t feel that great; I didn’t understand what I did at all. It did not feel like a personal achievement, and I felt empty as if I cheated on a test to get an A. I felt no desire for celebration of my achievement because there was no hard work done by me. I took the shortcut that wouldn't offer long-term benefits.
+Skip ahead a few weeks and I finally got one car to detect lane lines, but I didn’t feel that great; I didn’t understand what I did at all. It did not feel like a personal achievement, and I felt empty as if I cheated on a test to get an A. I felt no desire for celebration of my achievement because there was <ins>no hard work done</ins> by me. I took the shortcut that wouldn't offer long-term benefits.
 
-Therefore, I decided to actually begin learning AI. On Coursera, I found an 11-week course on Machine Learning taught by Andrew Ng, former Stanford University Professor, which I enrolled in mid-August. The course was clearly meant for calculus students so I struggled with the equations, but I persevered; and now, it has brought me to where I am right now, writing a book for other high schoolers to help them understand AI without going through an online class with messy, confusing math equations. 
+Therefore, I decided to actually begin learning AI. On Coursera, I found an 11-week course on Machine Learning taught by Andrew Ng, former Stanford University Professor, which I enrolled in mid-August. The course was clearly meant for calculus students so I struggled with the equations, but I <ins>**persevered**</ins>; and now, it has brought me to where I am right now, writing a book for other high schoolers to help them understand AI without going through an online class with messy, confusing math equations. 
 
 Hopefully you will enjoy this book to save yourself a lot of time in taking another step into the field of AI. I will try my best to convey the concepts in a different but relatable way to make understanding as easy as possible. Most importantly, I will bring calculus back down to the level of algebra (a high schooler’s math level). I hope you will enjoy this book! Thank you for reading.
