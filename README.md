@@ -15,7 +15,7 @@ This book is aimed towards **high schoolers** so that **you <ins>can</ins> begin
 <br>
 
 ## Structure of this book 📚
-Chapter 00: Basics of Neural Networks<br>
+Chapter 00| Basics of Neural Networks<br>
 - Overview of AI and its Parts<br>
 - Connecting Biological Neural Networks to Artificial Neural Networks<br>
 - Steps for Artificial Neural Network
@@ -35,7 +35,7 @@ Chapter 03| Possible Error Reduction Methods
 - Random, Random, Random!<br>
 - Random Updates!<br>
 
-Unit 04| Gradient Descent: The Perfect Algorithm To Use In Training
+Chapter 04| Gradient Descent: The Perfect Algorithm To Use In Training
 - Connection Of Hill To Cost Function & Using Slope at a Point (derivative) to determine Update Direction<br>
 - Numerical Derivative<br>
 - Calculus Chain Rule for High Schoolers<br>
