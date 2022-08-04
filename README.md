@@ -128,12 +128,12 @@ Hopefully you will enjoy this book to save yourself a lot of time in taking anot
 ## Technical Details
 Python Version Used: 3.9.7<br>
 
-<ins>3rd-Party Packages (Dependencies) Pip Installation</ins><br>
+### 3rd-Party Packages (Dependencies) Pip Installation<br>
 Matplotlib -- https://pypi.org/project/matplotlib/<br>
 Numpy -- https://pypi.org/project/numpy/<br>
 Pandas -- https://pypi.org/project/pandas/<br>
 
-<ins>3rd-Party Package Versions Used</ins><br>
+### 3rd-Party Package Versions Used<br>
 Matplotlib -- 3.4.0<br>
 Numpy -- 1.22.2<br>
 Pandas -- 1.4.0<br>
