@@ -125,3 +125,16 @@ Therefore, I decided to actually begin learning AI. On Coursera, I found an 11-w
 Hopefully you will enjoy this book to save yourself a lot of time in taking another step into the field of AI. I will try my best to convey the concepts in a different but relatable way to make understanding as easy as possible. Most importantly, I will bring calculus back down to the level of algebra (a high schooler’s math level). I hope you will enjoy this book! Thank you for reading.
 
 
+## Technical Details
+Python Version Used: 3.9.7
+
+3rd-Party Packages (Dependencies) Pip Installation
+Matplotlib -- https://pypi.org/project/matplotlib/
+Numpy -- https://pypi.org/project/numpy/
+Pandas -- https://pypi.org/project/pandas/
+
+3rd-Party Package Versions Used
+Matplotlib -- 3.4.0
+Numpy -- 1.22.2
+Pandas -- 1.4.0
+
