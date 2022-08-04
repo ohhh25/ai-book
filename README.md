@@ -17,7 +17,7 @@ This book is aimed towards **high schoolers** so that **you <ins>can</ins> begin
 
 
 ## How to get started?
-Click on the "View On Github" button above to access the Github repository.<br>
+Click on the ["View On Github"](https://github.com/ohhh25/ai-book) button here or above to access the Github repository.<br>
 There you can find folders for each chapter. Each folder for the chapter contains a PDF of the chapter and a folder that contains Python code for the chapter. The book starts at Chapter 00 and Chapter 10 is the last chapter. The table of contents for the book is below. Happy reading! 😀
 
 
