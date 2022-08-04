@@ -7,13 +7,21 @@ Special thanks to my friend, [Aiden Choe](https://github.com/aidenchoe), for hel
 
 This book is aimed towards **high schoolers** so that **you <ins>can</ins> begin** building your own AI. Most of the important concepts used in AI are based on calculus. **However**, calculus was built on algebra. As a result, this book brings any calculus concepts used in AI down to algebra, which is more familiar to high schoolers. 
 
-## Why am I writing this book?
-There are many other books on AI that may even convey the same information better than this one. However, I would like to inform you that **understanding AI is NOT friendly to high schoolers**. Many online courses and other books bring in mind-boggling math equations that high schoolers cannot easily comprehend. The result? You may end up to quit learning AI because you doubt that you have the capability but you will be <ins>unable</ins> to enjoy creating your own AI. Unfortunately I had a friend that went through this experience. 
 
-In order for future high schoolers to successfully learn AI, this book will attempt to convert AI, a "non-high-schooler friendly” subject, to a “high-schooler friendly” subject. How? By getting rid of as much of the messy math that is beyond high school as possible. For example, take the happy y = mx + b equation from your Algebra 1 class or Math 1 class (mangeable level of mathematics). That equation is the absolute drive of AI, without it, there is no AI and you will soon understand why. Instead of **directly** teaching you the linear algebra to use the y = mx + b equation, we teach it **indirectly**.
+## What will you get from this book?
+- Learn the structure of artificial neural networks
+- Learn how to *train* artificial neural networks
+- Create your own artificial neural networks for your own use
+- Understand the math (algebra) behind training artificial neural networks without knowledge of calculus
+- Familiarize yourself with NumPy, Pandas, and Matplotlib
 
 
-## Structure of this book 📚
+## How to get started?
+Click on the "View On Github" button above to access the Github repository.<br>
+There you can find folders for each chapter. Each folder for the chapter contains a PDF of the chapter and a folder that contains Python code for the chapter. The book starts at Chapter 00 and Chapter 10 is the last chapter. The table of contents for the book is below. Happy reading! 😀
+
+
+## Table of Contents 📚
 Chapter 00| Basics of Neural Networks<br>
 - Overview of AI and its Parts<br>
 - Connecting Biological Neural Networks to Artificial Neural Networks<br>
@@ -87,7 +95,12 @@ Chapter 10| Multi-Class Classification
 - Saving/Loading Models
 
 <br>
-Details on how to access and run the code is available here (tbd).
+
+## Why am I writing this book?
+There are many other books on AI that may even convey the same information better than this one. However, I would like to inform you that **understanding AI is NOT friendly to high schoolers**. Many online courses and other books bring in mind-boggling math equations that high schoolers cannot easily comprehend. The result? You may end up to quit learning AI because you doubt that you have the capability but you will be <ins>unable</ins> to enjoy creating your own AI. Unfortunately I had a friend that went through this experience. 
+
+In order for future high schoolers to successfully learn AI, this book will attempt to convert AI, a "non-high-schooler friendly” subject, to a “high-schooler friendly” subject. How? By getting rid of as much of the messy math that is beyond high school as possible. For example, take the happy y = mx + b equation from your Algebra 1 class or Math 1 class (mangeable level of mathematics). That equation is the absolute drive of AI, without it, there is no AI and you will soon understand why. Instead of **directly** teaching you the linear algebra to use the y = mx + b equation, we teach it **indirectly**.
+
 
 ## About the Author's Journey in this Field of High Potential
 I first got into AI because I thought it was unbelievable how you can give a machine an image and it will somehow recognize the type of object presented. The most impressive breakthrough that got me excited about this field was when a machine beat a human in the game Go. How could a machine, that **spent considerably less time** to learn the game, gain enough knowledge about its strategies to beat a champion? 
