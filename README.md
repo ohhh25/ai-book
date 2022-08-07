@@ -1,4 +1,4 @@
-# Welcome to the Introduction to Artificial Intelligence <br> for High Schoolers Book!!!! 😀
+# Welcome to the Intro to AI for High Schoolers Book!!!! 😀
 
 by Lukas Cao<br>
 Special thanks to my friend, [Aiden Choe](https://github.com/aidenchoe), for helping me edit this book.
