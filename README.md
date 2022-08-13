@@ -9,7 +9,7 @@ Special thanks to my friend, [Aiden Choe](https://github.com/aidenchoe), for hel
 
 This book is aimed towards **high schoolers** so that **you <ins>can</ins> begin** building your own AI. Most of the important concepts used in AI are based on calculus. **However**, calculus was built on algebra. As a result, this book brings any calculus concepts used in AI down to algebra, which is more familiar to high schoolers. 
 
-This book uses Python for writing the code and since AI is a broad subject, I have narrowed down this book to an introduction artificial neural networks which have become very popular in the last few years.
+This book uses Python for writing the code and since AI is a broad subject, I have narrowed down this book to an **<ins>introduction to artificial neural networks**</ins> which have become very popular in the last few years.
 
 
 ## What will you get from this book?
@@ -22,7 +22,9 @@ This book uses Python for writing the code and since AI is a broad subject, I ha
 
 ## How to get started?
 Click on the ["View On Github"](https://github.com/ohhh25/ai-book) button here or above to access the Github repository.<br>
-There you can find folders for each chapter. Each folder for the chapter contains a PDF of the chapter and a folder that contains Python code for the chapter. The book starts at Chapter 00 and Chapter 10 is the last chapter. The book has a total of 233 pages so in 2-3 months you will be able to make your own neural networks! The table of contents for the book is below. Happy reading! 😀
+There you can find folders for each chapter. Each folder for the chapter contains a PDF of the chapter and a folder that contains Python code for the chapter. The book starts at Chapter 00 and Chapter 10 is the last chapter. The book has a total of 233 pages so in 2-3 months you will be able to make your own neural networks! The table of contents for the book is below. Happy reading! 😀<br>
+
+If this book was helpful for you or anyone else, please give it a star ⭐️ on Github (make sure you have an account first). By giving this book a star ⭐️ on Github you are supporting the author and helping this book gain popularity. Also, please share this book on social media and share the link (https://ohhh25.github.io/ai-book/) to anyone you think may benefit from this book or anyone you think is interested in AI or want to understand how AI works.
 
 
 ## Table of Contents 📚
