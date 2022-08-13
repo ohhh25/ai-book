@@ -3,7 +3,7 @@
 by Lukas Cao<br>
 Special thanks to my friend, [Aiden Choe](https://github.com/aidenchoe), for helping me edit this book.
 
-<img src="https://github.com/ohhh25/ai-book/blob/main/cover.png" width="336">
+<img src="https://github.com/ohhh25/ai-book/blob/main/docs/assets/cover.png" width="336">
 
 <ins>**AI (Artificial Intelligence)**</ins> is changing the landscape of multiple industries as we know it. In recent examples, AI has been used to save scientists an immense amount of time during the COVID-19 pandemic, producing a global impact. But what if **<ins>you</ins> could build your own AI** to do your homework, chores, or even just act as a personal companion when you are lonely?
 
