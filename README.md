@@ -22,7 +22,7 @@ This book uses Python for writing the code and since AI is a broad subject, I ha
 
 ## How to get started?
 Click on the ["View On Github"](https://github.com/ohhh25/ai-book) button here or above to access the Github repository.<br>
-There you can find folders for each chapter. Each folder for the chapter contains a PDF of the chapter and a folder that contains Python code for the chapter. The book starts at Chapter 00 and Chapter 10 is the last chapter. The book has a total of 233 pages so in 2-3 months you will be able to make your own neural networks! The table of contents for the book is below. Happy reading! 😀<br>
+There you can find folders for each chapter. Each folder for the chapter contains a PDF of the chapter and a folder that contains Python code for the chapter. The book starts at Chapter 00 and Chapter 10 is the last chapter. The book has a total of 230 pages so in 2-3 months you will be able to make your own neural networks! The table of contents for the book is below. Happy reading! 😀<br>
 
 If this book was helpful for you or anyone else, please give it a star ⭐️ on Github (make sure you have an account first). By giving this book a star ⭐️ on Github you are supporting the author and helping this book gain popularity. Also, please share this book on social media and share the link (https://ohhh25.github.io/ai-book/) to anyone you think may benefit from this book or anyone you think is interested in AI or want to understand how AI works.
 
