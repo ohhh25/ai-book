@@ -26,6 +26,7 @@ There you can find folders for each chapter. Each folder for the chapter contain
 
 If this book was helpful for you or anyone else, please give it a star ⭐️ on Github (make sure you have an account first). By giving this book a star ⭐️ on Github you are supporting the author and helping this book gain popularity. Also, please share this book on social media and share the link (https://ohhh25.github.io/ai-book/) to anyone you think may benefit from this book or anyone you think is interested in AI or want to understand how AI works.
 
+If you would like to support me, please buy the ebook on Amazon: [https://www.amazon.com/dp/B0BGFRTB4M](https://www.amazon.com/dp/B0BGFRTB4M). I would greaty appreciate you to rate and comment a review on the Amazon page to help others discover my book. Thank you very much! 😀
 
 ## Table of Contents 📚
 Chapter 00| Basics of Neural Networks<br>
